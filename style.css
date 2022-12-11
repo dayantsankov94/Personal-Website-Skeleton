@@ -1,0 +1,449 @@
+
+.navbar img {
+    width: 150px;
+    border-radius: 5px;
+}
+
+#navmenu {
+    text-align: center;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url('/images/newbg.png');
+
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-link {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(178, 140, 38);
+    transition: .5s;
+    transform: scale(1.2);
+    /* border: 3px solid rgb(178, 140, 38);
+    border-radius: 100%; */
+}
+
+#text-js {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    padding-top: 500px;
+}
+
+.content {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.bg h1 {
+    color: rgb(178, 140, 38);
+    margin: 15px 0px 20px;
+    font-size: 50px;
+}
+
+.bg h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.bg h4 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+.about button {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    background-color: rgb(187, 144, 25);
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: 25px;
+    margin: 15px;
+}
+
+.about button:hover {
+    transition: .5s;
+    transform: scale(1.2);
+    background-color: rgb(187, 144, 25);
+    color: white;
+    border: 3px solid white;
+    box-shadow: 0 0 20px rgb(178, 140, 38);
+}
+
+.about img {
+    height: 550px;
+    width: 400px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+
+.about-text {
+    color: white;
+    text-align: center;
+    width: 400px;
+}
+
+.main {
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.hidden-images {
+    margin: 10px;
+}
+
+.hidden-images img {
+    padding: 10px;
+    height: 100%;
+    width: 400px;
+
+}
+
+#portfolio-btn {
+    background-color: rgb(178, 140, 38);
+}
+
+/* .content a {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.content a:hover {
+    transition: .5s;
+    transform: scale(1.2);
+} */
+
+.content button {
+    min-width: 200px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: white;
+    background: rgb(178, 140, 38);
+    background: linear-gradient(90deg, rgb(178, 140, 38) 0%, rgb(178, 140, 38) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.content button::before {
+    content: '';
+    border-radius: 1000px;
+    min-width: calc(200px + 12px);
+    min-height: calc(60px + 12px);
+    border: 6px solid rgb(221, 221, 221);
+    box-shadow: 0 0 60px rgb(178, 140, 38);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+}
+
+.content button:hover,
+.content button:focus {
+    color: white;
+    transform: translateY(-6px);
+}
+
+.content button:hover::before,
+.content button:focus::before {
+    opacity: 1;
+}
+
+.content button::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 6px solid rgb(178, 140, 38);
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+}
+
+.content button:hover::after,
+.content button:focus::after {
+    animation: none;
+    display: none;
+}
+
+@keyframes ring {
+    0% {
+        width: 30px;
+        height: 30px;
+        opacity: 1;
+    }
+
+    100% {
+        width: 200px;
+        height: 200px;
+        opacity: 0;
+    }
+}
+
+.education {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+.education li {
+    list-style: none;
+}
+
+#education-img {
+    height: 550px;
+    width: 400px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+
+.education h2 {
+    color: white;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+.education h3 {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.education h4 {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.education p {
+    color: white;
+}
+
+.hidden-info-courses {
+    width: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    border: 3px solid white;
+    text-align: center;
+}
+
+.hidden-info-uni {
+    width: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    border: 3px solid white;
+    text-align: center;
+}
+
+.hidden-info-school {
+    width: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    border: 3px solid white;
+    text-align: center;
+}
+
+.hidden-info-courses img {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+}
+
+.hidden-info-uni img {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+}
+
+.hidden-info-school img {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+}
+
+.education button {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    background-color: rgb(187, 144, 25);
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: 25px;
+    margin: 15px;
+}
+
+.education button:hover {
+    transition: .5s;
+    transform: scale(1.2);
+    background-color: rgb(187, 144, 25);
+    color: white;
+    border: 3px solid white;
+    box-shadow: 0 0 20px rgb(178, 140, 38);
+}
+
+.contacts {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+    color: white;
+    text-align: center;
+}
+
+.contacts h1 {
+    padding-bottom: 30px;
+}
+
+.contacts h3 {
+    padding-bottom: 30px;
+}
+
+.contacts a {
+    text-decoration: none;
+}
+
+.skills {
+    color: white;
+    background-color: #191919;
+    padding: 30px;
+}
+
+.skills h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.skills-image.col-md {
+    text-align: center;
+}
+
+.skills-image img {
+    max-width: 400px;
+    height: 400px;
+    margin: 20px;
+    margin-top: 120px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    text-align: center;
+}
+
+.chart footer {
+    max-width: 500px;
+    margin: 10px;
+}
+
+.skills-images {
+    text-align: center;
+    margin: 30px;
+}
+
+.skills-images img {
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+}
+
+.front-end {
+    margin: 20px;
+}
+
+.back-end {
+    margin: 20px;
+}
+
+.front-end footer div {
+    background-color: rgb(50, 50, 248);
+    padding: 3px;
+}
+
+.back-end footer div {
+    background-color: rgb(187, 144, 25);
+    padding: 3px;
+}
+
+.chart footer {
+    background-color: #373737;
+}
+
+.projects {
+    background-color: #191919;
+    color: white;
+}
+.projects h1 {
+    text-align: center;
+    padding: 30px;
+}
+section {
+    text-align: center;
+}
+figure {
+    width: 405px;
+    height: 270px;
+}
+
+figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem 3rem;
+    color: #ffffff;
+    z-index: 1;
+    position: absolute;
+}
+
+section {
+    background-color: #191919;
+    color: white;
+}

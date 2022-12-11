@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Dayan Tsankov</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark d-flex">
+        <div class="container">
+            <img src="/images/logo.png" alt="Logo">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contacts</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="bg">
+        <!--Home-->
+        <div class="content container">
+            <h4>Hello, my name is</h4>
+            <h1>Dayan Tsankov</h1>
+            <h3>I am a JavaScript Enthusiast</h3>
+            <button class="button" target="_blank"
+                onclick=" window.open('/Portfolio/Dayan_Tsankov_ CV.pdf','_blank')">Portfolio</button>
+        </div>
+    </div>
+    <!--About Me-->
+
+    <section class="about">
+        <div class="main container">
+            <div class="row">
+                <div class="about-img col-md">
+                    <img src="/images/IMG_3569.jpg" alt="me">
+                </div>
+                <div class="about-text col-md">
+                    <h2>About Me</h2>
+                    <h5>Web Developer</h5>
+                    <p>I am a beginner front-end web developer. I have no professional experience in this field yet but
+                        i've
+                        took some JavaScript <a href="#">courses</a> recently. I have few projects of my own that you
+                        can
+                        check
+                        <a href="#">here</a>. My main programming language is JavaScript and i build SPA with ReactJS. I
+                        have
+                        knowledge of NodeJS so i can build REST API's as well and i use Bootstrap for the design.
+                    </p>
+                    <button class="btn">Learn more about me</button>
+                    <div class="hidden-info">
+                        <div class="hidden-text">
+                            <p>I am 28 years old and i was born in Troyan, Bulgaria (a smalll beautiful town in the
+                                countryside). I am currently living in Sofia. I love travelling and I have
+                                many
+                                hobbies and interests but what i like and love the most are Volleyball, Fishing and
+                                Snowboarding
+                            </p>
+                            <p>You can see photograhps of me participating in those activities below:</p>
+                            <button class="btn">Volleball</button>
+                            <button class="btn">Fishing</button>
+                            <button class="btn">Snowboarding</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div hidden>
+            <div class="hidden-images">
+                <div class="hidden-images-volleyball">
+                    <div class="volleyball-images">
+                        <img src="/images/volleyball1.jpg" alt="">
+                        <img src="/images/volleyball.PNG" alt="">
+                        <img src="/images/volleyball2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="hidden-images-Fishing">
+                    <div class="fishing-images">
+                        <img src="/images/fishing2.jpg" alt="">
+                        <img src="/images/fishing.jpg" alt="">
+                        <img src="/images/fishing1.JPG" alt="">
+                    </div>
+                </div>
+                <div class="hidden-images-Snowboarding">
+                    <div class="snowboarding-images">
+                        <img src="/images/snowboarding3.jpg" alt="">
+                        <img src="/images/snowboarding1.JPG" alt="">
+                        <img src="/images/snowboarding4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Education-->
+    <section class="education">
+        <div class="education">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md">
+                        <img src="/images/education.jpg" id="education-img" alt="">
+                    </div>
+                    <div class="col-md">
+                        <h2>Education</h2>
+                        <h3>Below you can check the institutions I've attended</h3>
+                        <ul>
+                            <li>
+                                <button class="btn">Professional courses</button>
+                                <div class="hidden-info-courses" hidden>
+                                    <img src="/images/softuni.jpg" alt="">
+                                    <h3>JavaScript courses in SoftUni</h3>
+                                    <h4>2020 - 2022</h4>
+                                    <p>Programing Basics in JavaScript</p>
+                                    <p>JavaScript Fundamentals</p>
+                                    <p>JavaScript Advanced</p>
+                                    <p>JavaScript Applications</p>
+                                    <p>Back-end with NodeJS</p>
+                                    <p>Front-end with ReactJS</p>
+
+                                </div>
+                            </li>
+                            <li>
+                                <button class="btn">University</button>
+                                <div class="hidden-info-uni" hidden>
+                                    <img src="/images/Logo_TU_Sofia.jpg" alt="">
+                                    <h3>Technical University - Sofia </h3>
+                                    <h4>2013 - 2019</h4>
+                                    <p>Bachelor</p>
+                                    <p>Field of study: Aviantion equipment and technologies</p>
+                                    <p>Profile: Operation and repair of aircrafts</p>
+                                    <p>Qualification: Aviation Engineer</p>
+                                </div>
+                            </li>
+                            <li>
+                                <button class="btn">High School</button>
+                                <div class="hidden-info-school" hidden>
+                                    <img src="/images/uktc.png" alt="">
+                                    <h3>UKTC - Pravets</h3>
+                                    <h4>2008 - 2013</h4>
+                                    <p>Profiled high school for computer technologies</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contacts-->
+    <section class="contacts">
+        <div class="contacts">
+            <h1>Contacts</h1>
+            <h3>Personal Contacts</h3>
+            <span>Email: </span>
+            <p>daqntsankov@gmail.com</p>
+            <span>Mobile: </span>
+            <p>+359 8890 188 53</p>
+            <h3>Social Media</h3>
+            <p><span class="fa fa-github"></span><a href="https://github.com/dayantsankov94" target="_blank"> Dayan
+                    Tsankov</a></p>
+            <p><span class="fa fa-facebook"> </span><a href="https://www.facebook.com/daqn.tsankov" target="_blank">
+                    Dayan
+                    Tsankov</a></p>
+            <p><span class="fa fa-instagram"></span> @dcankov</p>
+            <p><span class="fa fa-linkedin"></span><a href="https://www.linkedin.com/in/dayan-tsankov-794299257/"
+                    target="_blank"> Dayan
+                    Tsankov</a></p>
+        </div>
+    </section>
+    <!--Skills-->
+    <section class="skills">
+        <div class="skills">
+            <div class="skills container">
+                <h1>Programming Skills</h1>
+                <div class="row">
+                    <div class="skills-images">
+                        <img src="/images/Unofficial_JavaScript_logo_2.svg.png" alt="">
+                        <img src="/images/react logo.png" alt="">
+                        <img src="/images/node logo.png" alt="">
+                        <img src="/images/express-logo.png" alt="">
+                        <img src="/images/MongoDB-Logo.jpg" alt="">
+                        <img src="/images/css3-html5-logo-initial.png" alt="">
+                        <img src="/images/css logo.png" alt="">
+                        <img src="/images/bootstrap.jfif" alt="">
+                        <img src="/images/mongoose.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="skills-charts col-md">
+                        <div class="front-end">
+                            <h4>Front-end</h4>
+
+                            <div class="chart">
+                                <span>JavaScript</span>
+                                <footer>
+                                    <div data-width="70%" style="width: 70%;"></div>
+                                </footer>
+                            </div>
+                            <div class="chart">
+                                <span>ReactJs</span>
+                                <footer>
+                                    <div data-width="60%" style="width: 60%;"></div>
+                                </footer>
+                            </div>
+                            <div class="chart">
+                                <span>HTML</span>
+                                <footer>
+                                    <div data-width="65%" style="width: 65%;"></div>
+                                </footer>
+                            </div>
+                            <div class="chart">
+                                <span>CSS</span>
+                                <footer>
+                                    <div data-width="50%" style="width: 50%;"></div>
+                                </footer>
+                            </div>
+                            <div class="chart">
+                                <span>Bootstrap</span>
+                                <footer>
+                                    <div data-width="50%" style="width: 50%;"></div>
+                                </footer>
+                            </div>
+                        </div>
+                        <div class="back-end">
+                            <h4>Back-end</h4>
+                            <div class="chart">
+                                <span>NodeJS</span>
+                                <footer>
+                                    <div data-width="50%" style="width: 50%;"></div>
+                                </footer>
+                            </div>
+                            <div class="chart">
+                                <span>ExpressJS</span>
+                                <footer>
+                                    <div data-width="40%" style="width: 40%;"></div>
+                                </footer>
+                            </div>
+                            <div class="chart">
+                                <span>MongoDB</span>
+                                <footer>
+                                    <div data-width="35%" style="width: 35%;"></div>
+                                </footer>
+                            </div>
+                            <div class="chart">
+                                <span>Mongoose</span>
+                                <footer>
+                                    <div data-width="35%" style="width: 35%;"></div>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-image col-md">
+                        <img src="/images/Web-Developer-skill.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section">
+        <div class="container">
+            <h1 class="title">My Projects</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <figure class="image">
+                        <img src="/images/Capture.PNG" alt="" width="304" height="228">
+                        <figcaption>
+                            <p>This is a website for fishermen who want to share their experience with others.</p>
+                            <a href="https://fishing-journal-214c0.web.app/*" target="_blank">Visit Website</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
