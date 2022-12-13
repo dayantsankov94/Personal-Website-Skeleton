@@ -96,7 +96,6 @@ html {
 
 .image-container {
     height: 600px;
-    max-width: 450px;
 }
 .image-container img{
     height: 100%;
@@ -422,6 +421,9 @@ html {
 .chart footer {
     background-color: #373737;
 }
+.project-image {
+    position: relative;
+}
 
 .projects {
     background-color: #191919;
@@ -464,12 +466,14 @@ figcaption {
     padding: 0rem 3rem;
     color: #ffffff;
     z-index: 1;
-    position: relative;
-    top: -200px;
-    background-color: #191919;
+    position: absolute;
+    top: 0;
+    background-color: rgb(0 0 0 / 70%);
+    height: 100%;
 }
 figcaption p {
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 500;
 }
 figcaption button {
     font-family: 'Nunito', sans-serif;
