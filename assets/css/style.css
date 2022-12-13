@@ -13,7 +13,7 @@ html {
 }
 
 .bg {
-    background-image: url('/assets/images/newbg.png');
+    background-image: url('../images/newbg.png');
 
     height: 100%;
     background-position: center;
