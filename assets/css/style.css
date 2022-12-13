@@ -391,6 +391,8 @@ html {
 .skills-images {
     text-align: center;
     margin: 30px;
+    display: flex;
+    overflow: scroll;
 }
 
 .skills-images img {
