@@ -101,7 +101,7 @@ html {
 }
 
 .image-container img {
-    height: auto;
+    height: 100%;
     width: 100%;
 }
 
@@ -531,4 +531,15 @@ figcaption button:hover {
 .footer {
     background-color: #191919;
     color: white;
+    justify-content: space-between;
+    text-align: center;
 }
+.footer span {
+    color: white;
+}
+
+.footer img {
+    width: 150px;
+    border-radius: 5px;
+}
+
